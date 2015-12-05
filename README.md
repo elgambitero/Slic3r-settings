@@ -5,13 +5,9 @@ Welcome to my personal Slic3r settings repo. This will hold the settings I rely 
 
 [Slic3r][Slic3r] is a build code (gcode) generator for 3D printers. It is Open Source, gives access to a huge amount of parameters, and it's been around for enough time for it to be a reliable program. The GUI is not as pretty as [Cura][Cura], but that won't be a decisive parameter here.
 
-[Slic3r]: http://slic3r.org
-[Cura]: https://ultimaker.com/en/products/cura-software
 
 It will be focusing on bq first pieces of equipment first (this is, [bq Hephestos][Hephestos] and 1st gen bq Witbox), by I may later add settings for my homemade prusa i2 SHODAN. (These are the printers I have access to for now.)
 When it comes to materials, it will begin by including the parameters of bq PLA coils, and then will expand to other plastics as I acquire them.
-
-[Hephestos]: http://www.bq.com/gb/prusa
 
 ##Criteria
 
@@ -43,21 +39,28 @@ These settings are configured following my near-OCD criteria when it comes to ju
 	* [Slic3r is Nicer 2: Filament and printing][Slic3rNicer2]
 	* [Slic3r is Nicer 3: How low can you go?][Slic3rNicer3]
 
+
+
+##Special thanks
+
+* To [Adrian Bowyer][AdriBow], for the [RepRap project][RepRap].
+* To [Alessandro Ranellucci][Aleran], author of [Slic3r][Slic3r]
+* To [RichRap][RichRap], for sharing his knowledge about Slic3r usage
+
+
+##License
+
+Although this is not quite content creation, everything you can find here is licensed under Creative Commons 4.0 Attribution-ShareAlike  
+<img src="./img/cc-by-sa.png" width="200" align="center">
+
+
+[Aleran]: https://twitter.com/alranel
+[AdriBow]: https://twitter.com/adrianbowyer
 [RichRap]: http://richrap.blogspot.com
 [Slic3rNicer1]: http://richrap.blogspot.com.es/2012/01/slic3r-is-nicer-part-1-settings-and.html
 [Slic3rNicer2]: http://richrap.blogspot.com.es/2012/01/slic3r-is-nicer-part-2-filament-and.html
 [Slic3rNicer3]: http://richrap.blogspot.com.es/2012/01/slic3r-is-nicer-part-3-how-low-can-you.html
-
-##Special thanks
-
-* To [Adrian Bowyer][AdriBow], for the RepRap project.
-* To [Alessandro Ranellucci][Aleran], author of [Slic3r][Slic3r]
-* To [RichRap][RichRap], for sharing his knowledge about Slic3r usage
-
-[Aleran]: [https://twitter.com/alranel]
-[AdriBow]: [https://twitter.com/adrianbowyer]
-
-##License
-
-Although this is not quite content creation, everything you can find here is licensed under Creative Commons 4.0 Attribution-ShareAlike
-<img src="./img/cc-by-sa.png" width="200" align="center">
+[Slic3r]: http://slic3r.org
+[Cura]: https://ultimaker.com/en/products/cura-software
+[Hephestos]: http://www.bq.com/gb/prusa
+[RepRap]: http://reprap.org
