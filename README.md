@@ -47,3 +47,17 @@ These settings are configured following my near-OCD criteria when it comes to ju
 [Slic3rNicer1]: http://richrap.blogspot.com.es/2012/01/slic3r-is-nicer-part-1-settings-and.html
 [Slic3rNicer2]: http://richrap.blogspot.com.es/2012/01/slic3r-is-nicer-part-2-filament-and.html
 [Slic3rNicer3]: http://richrap.blogspot.com.es/2012/01/slic3r-is-nicer-part-3-how-low-can-you.html
+
+##Special thanks
+
+* To [Adrian Bowyer][AdriBow], for the RepRap project.
+* To [Alessandro Ranellucci][Aleran], author of [Slic3r][Slic3r]
+* To [RichRap][RichRap], for sharing his knowledge about Slic3r usage
+
+[Aleran]: [https://twitter.com/alranel]
+[AdriBow]: [https://twitter.com/adrianbowyer]
+
+##License
+
+Although this is not quite content creation, everything you can find here is licensed under Creative Commons 4.0 Attribution-ShareAlike
+<img src="./img/cc-by-sa.png" width="200" align="center">
