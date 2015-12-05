@@ -17,9 +17,9 @@ When it comes to materials, it will begin by including the parameters of bq PLA 
 
 These settings are configured following my near-OCD criteria when it comes to judge the quality of 3D prints, regardless of whether these are achievable or not with the Slic3r software, I'm keen on pursing them:
 
-* **Layers must be even. **
+* **Layers must be even.**
 	* On a vertical wall, every filament must be placed JUST on top of the previous one, and look the same as the previous one.
-* **Even filament flow. **
+* **Even filament flow.**
 	* No bubbles, no blobs, no random thinness, no nothing. STRAIGHT AND EVEN LINE.
 	* That's why for each filament, in each colour, there will be a config file.
 * **What is intended to fit in the CAD, MUST FIT in the real world.**
