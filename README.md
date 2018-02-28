@@ -1,6 +1,6 @@
-#elgambitero's Slic3r settings
+# elgambitero's Slic3r settings
 
-##Introduction
+## Introduction
 Welcome to my personal Slic3r settings repo. This will hold the settings I rely on when I work with 3D printers, either at home or at work, and how I got to calibrate them.
 
 [Slic3r][Slic3r] is a build code (gcode) generator for 3D printers. It is Open Source, gives access to a huge amount of parameters, and it's been around for enough time for it to be a reliable program. The GUI is not as pretty as [Cura][Cura], but that won't be a decisive parameter here.
@@ -9,7 +9,7 @@ Welcome to my personal Slic3r settings repo. This will hold the settings I rely 
 It will be focusing on bq first pieces of equipment first (this is, [bq Hephestos][Hephestos] and 1st gen bq Witbox), by I may later add settings for my homemade prusa i2 SHODAN. (These are the printers I have access to for now.)
 When it comes to materials, it will begin by including the parameters of bq PLA coils, and then will expand to other plastics as I acquire them.
 
-##Criteria
+## Criteria
 
 These settings are configured following my near-OCD criteria when it comes to judge the quality of 3D prints, regardless of whether these are achievable or not with the Slic3r software, I'm keen on pursing them:
 
@@ -31,7 +31,7 @@ These settings are configured following my near-OCD criteria when it comes to ju
 	* Don't worry about that previous clarification, small parts will still take about 20 minutes to print. This settings will be slow, but not THAT slow.
 	* **LOW ACCELERATIONS!!!** Printers need low accelerations! With the GRBL gcode planner running in almost every 3D printer on the planet, I wonder why such high numbers like 5000 mm/s2 are that frequent. That barely takes the advantages of having accelerations (such as less mechanical stress, and more precision when tracing). A value of 200 mm/s2 is going to be hardcoded in every printer in this repo.
 
-##Further reading
+## Further reading
 
 * The wiki of this repo will have further explanations about the methods used to calibrate each concerning aspect of 3D printing.
 * [RichRap][RichRap] has been using and defending Slic3r from almost the very beggining, and has great documentation about 3D printing temperatures and the finish that comes with them. Reading his articles and following him is highly recommended.
@@ -41,14 +41,14 @@ These settings are configured following my near-OCD criteria when it comes to ju
 
 
 
-##Special thanks
+## Special thanks
 
 * To [Adrian Bowyer][AdriBow], for the [RepRap project][RepRap].
 * To [Alessandro Ranellucci][Aleran], author of [Slic3r][Slic3r]
 * To [RichRap][RichRap], for sharing his knowledge about Slic3r usage
 
 
-##License
+## License
 
 Although this is not quite content creation, everything you can find here is licensed under Creative Commons 4.0 Attribution-ShareAlike  
 <img src="./img/cc-by-sa.png" width="200" align="center">
